@@ -37,7 +37,7 @@
   - SWOT、PEST、精益画布、用户画像、用户故事等
 - ✅ 提供丰富、专业、全面的图表模板库
 
-![](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/maxx/ai/mcp/Edrawmax.png)
+![Edrawmax](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/maxx/ai/mcp/Edrawmax.png)
 
 ---
 
