@@ -39,6 +39,8 @@
 
 ![Edrawmax](https://edrawcloudpubliccn.oss-cn-shenzhen.aliyuncs.com/maxx/ai/mcp/Edrawmax.png)
 
+![](https://www.edrawsoft.com/images2021/new-edrawsoft/Edrawmax.png)
+
 ---
 
 ### 使用案例
