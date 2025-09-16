@@ -1,5 +1,3 @@
-# edraw-ai-mcp-server
-
 ### 什么是 Edraw AI MCP 服务？
 
 **EdrawAIMCP** 是由万兴科技开源的**图表可视化解决方案**，旨在通过**自然语言、图像、文档与代码**四种输入方式，帮助用户**一键生成和智能优化各类可视化图表**。它适用于开发者、产品团队、内容运营人员、教学人员等，能够快速产出高质量的视觉内容，如：
@@ -21,7 +19,24 @@
 
 ### 如何使用 Edraw AI MCP 服务？
 
-腾讯云平台已经为你部署好了云端的 **Edraw AI MCP 服务**，并且**完全免费使用**。
+平台已经为你部署好了云端的 **Edraw AI MCP 服务**，并且**完全免费使用**。
+
+**自定义配置示例：**
+
+```json
+{
+  "mcpServers": {
+    "edraw-ai-mcp-server": {
+      "name": "edraw-ai-mcp-server",
+      "type": "streamableHttp",
+      "description": "万兴AI文生图示MCP服务",
+      "isActive": true,
+      "url": "https://api.edrawmax.cn/api/mcp/mcp"
+    }
+  }
+}
+```
+---
 
 ### Edraw AI MCP 服务的关键特性
 
@@ -51,6 +66,26 @@
 | 产品设计与用户研究 | 产品需求描述 | 用户画像、SWOT 分析图 |
 | 项目管理与敏捷开发 | Mermaid 代码 | 流程图 |
 | 学术研究与教育 | 研究提纲、文献摘要 | 思维导图、内容框架图 |
+
+---
+
+### 工具列表
+| 工具名                   | 工具说明             | 参数说明                                                                                               |
+|--------------------------|------------------------|-----------------------------------------------------------------------------------------------------|
+| generate_card            | 文本生成知识卡片       | mode 参数可选项：card-loop(循环),card-contrast(对比),card-parallel(平行),card-progressive(递进),card-deduction(总分),card-hierarchical(层级),card-contain(包含) |
+| generate_flowchart       | 文本生成流程图         |                                                                                                     |
+| generate_info-contrast   | 文本生成对比信息图     |                                                                                                    |
+| generate_info-parallel   | 文本生成平行信息图     |                                                                                                     |
+| generate_mindmap         | 文本生成脑图           |                                                                                                     |
+| generate_ppt             | 文本生成PPT            | mode 参数可选项：ppt-define(自定义), ppt-contrast(对比), ppt-framework(框架), ppt-parallel(并列), ppt-progressive(递进), ppt-loop(循环), ppt-contain(包含), ppt-hierarchical(层级) |
+| generate_text-leanCanvas | 文本生成精益画布       |                                                                                                     |
+| generate_text-pest       | 文本生成PEST分析图     |                                                                                                    |
+| generate_text-swot       | 文本生成SWOT分析图     |                                                                                                     |
+| generate_text-userStory  | 文本生成用户故事       |                                                                                                    |
+| generate_timeline        | 文本生成时间线         |                                                                                                    |
+| generate_user-profile    | 文本生成用户画像       |                                                                                                     |
+
+- 工具中都包含的参数：prompt(主题)、lang(语言)
 
 ---
 
